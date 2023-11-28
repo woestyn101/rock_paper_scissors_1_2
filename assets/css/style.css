@@ -1,0 +1,148 @@
+body {
+    text-align: center;
+}
+
+header {
+    background-color: dodgerblue;
+    line-height: 3rem;
+    color:white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.box-border {
+    border: 2px solid black;
+}
+
+.box {
+    width: 200px;
+    height:200px;
+    padding:20px;   
+}
+
+.title {
+   
+    width: 200px;
+    height:20px;
+    
+}
+.user1-container {
+    display: flex;
+    flex-direction: column;
+    margin:15px;
+}
+
+.user2-container {
+    display: flex;
+    flex-direction: column;
+    margin:15px;
+   
+}
+
+section {
+    display: flex;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.image-disappear {
+    display: none;
+}
+
+/* CSS */
+.button-21 {
+    align-items: center;
+    appearance: none;
+    background-color: #3EB2FD;
+    background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: CircularStd,sans-serif;
+    font-size: 1rem;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 6px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .2s,background-position .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .button-21:active,
+  .button-21:focus {
+    outline: none;
+  }
+  
+  .button-21:hover {
+    background-position: -20px -20px;
+  }
+  
+  .button-21:focus:not(:active) {
+    box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+  }
+
+  @media screen and (max-width:460px){
+
+    img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .box {
+        width: 170px;
+        height:170px;
+        padding:20px;   
+    }
+    
+    .title {
+       
+        width: 170px;
+        height:17px;
+        
+    }
+
+  }
+
+  @media screen and (max-width:400px){
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .box {
+        width: 150px;
+        height:150px;
+        padding:20px;   
+    }
+    
+    .title {
+       
+        width: 150px;
+        height:15px;
+        
+    }
+
+  }

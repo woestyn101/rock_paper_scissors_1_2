@@ -11,6 +11,63 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <style type="text/css"></style>
   </head>
+  <header>
+    <h2>Rock-Paper-Scissors</h2>
+  </header>
+  <main>
+    <section>
+      <div class="user1-container">
+        <div class="box box-border title">You</div>
+        <div class="box box-border image-box">
+          <div class="image-disappear" id="p1">
+            <img src="assets/images/paper_blue.png" />
+          </div>
+          <div class="image-disappear" id="rock">
+            <img src="assets/images/rock_blue.png" />
+          </div>
+          <div class="image-disappear" id="scissors">
+            <img src="assets/images/scissors_blue.png" />
+          </div>
+        </div>
+      </div>
+      <div class="user2-container">
+        <div class="box box-border title">Computer</div>
+        <div class="box box-border image-box">
+          <div class="image-disappear" id="comp-p1">
+            <img src="assets/images/paper_red.png" />
+          </div>
+          <div class="image-disappear" id="comp-rock">
+            <img src="assets/images/rock_red.png" />
+          </div>
+          <div class="image-disappear" id="comp-scissors">
+            <img src="assets/images/scissors_red.png" />
+          </div>
+        </div>
+      
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="options">
+    <select name="" id="userChoice">
+      <option value="R">Rock</option>
+      <option value="P">Paper</option>
+      <option value="S">Scissors</option>
+    </select>
+
+    
+
+    <div >
+    </div>
+    <div><button id="playBtn"  class="button-21">Play</button></div>
+    
+    <p id="theResult"></p>
+  
+
+
+    <p id="thewins"></p>   
+    <p id="thelosses"></p>
+    <p id="theties"></p>
   <body>
     <script src="assets/js/script.js" type="text/javascript"></script>
   </body>
