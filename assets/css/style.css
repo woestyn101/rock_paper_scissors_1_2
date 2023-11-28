@@ -131,8 +131,8 @@ select {
     .title {
        
         width: 170px;
-        height:17px;
-        
+        height:30px;
+        font-size: 1.5rem;
     }
 
   }
@@ -151,9 +151,9 @@ select {
     }
     
     .title {
-       
+        font-size: 1.3rem;
         width: 150px;
-        height:15px;
+        height:25px;
         
     }
 
