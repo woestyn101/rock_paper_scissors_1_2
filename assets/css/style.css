@@ -20,10 +20,12 @@ header {
     padding:20px;   
 }
 
+
 .title {
-   
     width: 200px;
-    height:20px;
+    height:40px;
+    font-size: 2rem;
+    font-weight: 400;
     
 }
 .user1-container {
@@ -43,6 +45,8 @@ section {
     display: flex;
 }
 
+
+
 main {
     display: flex;
     justify-content: center;
@@ -56,6 +60,14 @@ img {
 .image-disappear {
     display: none;
 }
+
+select {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    margin-top:30px;
+ }
+
+
 
 /* CSS */
 .button-21 {
@@ -86,7 +98,7 @@ img {
     touch-action: manipulation;
     vertical-align: top;
     white-space: nowrap;
-    margin-top: 15px;
+    margin-top: 25px;
     margin-bottom: 15px;
   }
   

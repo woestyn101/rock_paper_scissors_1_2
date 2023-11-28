@@ -52,11 +52,14 @@ document.getElementById("playBtn").onclick = function() {
     if (myChoiceQuestion == compChoice){
         ties++;
         console.log("tie");
-       
+        document.getElementById("theResult").style.color = "orange";
+        document.getElementById("theResult").style.fontSize = "2rem";
+        document.getElementById("theResult").innerHTML = "Tie!";
     }else if (myChoiceQuestion == "R" && compChoice == choices[1] || myChoiceQuestion == "P" && compChoice == choices[2] || myChoiceQuestion == "S" && compChoice == choices[0] ){
         losses++;
         console.log("loss");
         document.getElementById("theResult").style.color = "red";
+        document.getElementById("theResult").style.fontSize = "2rem";
         document.getElementById("theResult").innerHTML = "You Lose!";
       
     }else if(myChoiceQuestion == "") {
@@ -68,6 +71,8 @@ document.getElementById("playBtn").onclick = function() {
     
     else {
         wins++;
+        document.getElementById("theResult").style.color = "blue";
+        document.getElementById("theResult").style.fontSize = "2rem";
         document.getElementById("theResult").innerHTML = "You Win!"
         console.log("Win");
         
@@ -79,8 +84,14 @@ document.getElementById("playBtn").onclick = function() {
     console.log("wins: " + wins);
     console.log("losses:" +  losses);
 
+    document.getElementById("thewins").style.fontSize = "2rem";
     document.getElementById("thewins").innerHTML = "Wins: " + wins;
+    document.getElementById("thewins").style.margin = "5px";
     document.getElementById("theties").innerHTML = "Ties: " + ties;
+    document.getElementById("theties").style.fontSize = "2rem";
+    document.getElementById("theties").style.margin = "5px";
+    document.getElementById("thelosses").style.margin = "5px";
     document.getElementById("thelosses").innerHTML = "Losses: " + losses;
+    document.getElementById("thelosses").style.fontSize = "2rem";
    
 }
